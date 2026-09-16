@@ -379,7 +379,8 @@ select { cursor: pointer; }
 .doc-body p {
   margin-bottom: 13px;
   text-align: justify;
-  hyphens: auto;
+  hyphens: none;
+  -webkit-hyphens: none;
 }
 .doc-body .field {
   font-weight: 600;
@@ -1170,7 +1171,7 @@ function getExportStyles() {
     .doc-folio { text-align: right; font-size: 9pt; color: #888; margin: 8pt 0; font-style: italic; }
     .doc-title { text-align: center; font-family: Arial, sans-serif; font-size: 14pt; font-weight: bold; text-transform: uppercase; letter-spacing: 1.5pt; color: #0d2d4a; margin: 18pt 0 4pt; border-bottom: 1pt solid #e0d8cc; padding-bottom: 8pt; }
     .doc-subtitle { text-align: center; font-size: 10pt; color: #a3822f; text-transform: uppercase; letter-spacing: 2pt; margin-bottom: 18pt; }
-    .doc-body p { margin: 0 0 12pt 0; text-align: justify; font-size: 12pt; }
+    .doc-body p { margin: 0 0 12pt 0; text-align: justify; font-size: 12pt; hyphens: none; -webkit-hyphens: none; }
     .field { font-weight: bold; color: #0d2d4a; }
     .doc-table { width: 100%; border-collapse: collapse; margin: 14pt 0; font-size: 11pt; }
     .doc-table th { background: #0d2d4a; color: white; padding: 6pt 10pt; text-align: left; font-size: 10pt; text-transform: uppercase; }
